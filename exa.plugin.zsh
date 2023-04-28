@@ -13,9 +13,9 @@ alias ls='exa --group-directories-first --icons'
 # Related to https://github.com/ogham/exa/issues/978
 if exa --version | grep -q '+git';
 then
-	alias ll='ls -lh --git'
+	alias ll='ls --octal-permissions -lh --git'
 else
-	alias ll='ls -lh'
+	alias ll='ls --octal-permissions -lh'
 fi
 
 alias la='ll -a'
