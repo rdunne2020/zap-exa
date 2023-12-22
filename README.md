@@ -1,12 +1,12 @@
-# exa
-Override `ls` and `tree` commands to use [exa](https://github.com/ogham/exa) instead
+# eza
+Override `ls` and `tree` commands to use [eza](https://github.com/eza-community/eza) instead
 
 ## Install
 Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`
 
 ```sh
 # Install plugin
-plug "zap-zsh/exa"
+plug "rdunne2020/zap-exa"
 ```
 
 ## ⚠️ Special Attention
@@ -17,7 +17,7 @@ Simply put it **after** supercharge declaration in your `.zshrc` like this:
 # ...
 
 plug "zap-zsh/supercharge"
-plug "zap-zsh/exa"
+plug "rdunne2020/zap-exa"
 
 # ...
 ```
